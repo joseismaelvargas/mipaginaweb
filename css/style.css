@@ -1,0 +1,152 @@
+
+
+/* barra de navegaciom */
+.navbar{
+    padding: 4rem;
+    background-color: #333;
+    color: white;
+    position: fixed<<<;
+
+
+    
+
+}
+.navbar-collapse{
+    text-align: center;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-family: sans-serif;
+    
+
+
+
+}
+.nav-item{
+    color: white;
+
+}
+/* section hero */
+.hero-inferior-imagen{
+    width: 700px;
+    height: 700px;
+    
+
+}
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: sans-serif;
+
+}
+.hero-imagen-desarollador{
+ 
+   
+    padding-left: 240px;
+}
+h1{
+    font-size: 2,5rem;
+    font-family: 'Bruno Ace', cursive;
+    
+}
+h2{
+    font-weight: bold;
+}
+.seccion-oscura{
+    background-color: rgb(3, 5, 29);
+    color: white;
+    font-family: sans-serif;
+}
+.seccion-titulo{
+    font-size: 2rem;
+    padding: 15px 0;
+}
+.seccion-texto{
+    font-size: 1,5rem;
+}
+.hero-principal{
+    padding: 3rem;
+}
+.hero{
+    background-color: #dadada;
+    min-height: 450px;
+    text-align: center;
+}
+#link{
+    color: white;
+}
+.nav-item{
+    background-color: #333;
+}
+ /* sobre mi */
+ .sobre-mi{
+ height: 500px;
+    padding:10px ;
+ }
+ .sobre-mi .contenedor{
+    max-width: 600px;
+    text-align: center;
+ }
+ /* experoencis */
+ .container{
+    margin: 50px 50px;
+ }
+ .experiencia{
+ padding: 40px 40px 50px 40px;
+ }
+ .row div{
+    
+    height: 350px;
+    
+ }
+ .experiencia .columna{
+padding: 10px;
+border: solid 2px #333;
+align-items: center;
+flex-direction: column;
+display: flex;
+justify-content: space-evenly;
+/* agrgamos una transition  */
+transition: all 0.2s ease-in;
+ }
+ .experiencia .columna:hover{
+    color: white;
+    background-color: #333;
+
+ }
+ e
+ .badges-contenedor{
+    font-weight: bold;
+    margin: 10px 0;
+    font-size: 20px;
+ }
+ .seccion-clara{
+ background-color: aliceblue;
+ color: black;
+ }
+ .experiencia-titulo{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+
+ }
+ .bi{
+    font-size: 3rem;
+    padding: 8px 19px;
+    border-radius: 50%;
+    background-color: #333;
+    color: white;
+ }
+
+@media screen and(max-width:700px){
+    body{
+        background-color: aqua;
+    }
+}
+@media  screen and (min-width:600px) {
+    .hero-inferior-imagen{
+    max-width: 600px;
+    }
+}

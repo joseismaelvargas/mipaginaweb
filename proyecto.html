@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- METADATOS -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="ismael">
+    <meta name="" content="desarollo wep">
+    <meta name="kieywords" content="html,css,javascript">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap" rel="stylesheet">
+    <!-- meta dato que define como se mire esa ventana del nvegador -->
+    <meta name="viewport " content="width= device-width, initial-scale=1">
+    <!-- CSSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- BOOSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+   <!-- icono -->
+   <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1198/1198293.png">
+   <!-- iconoo de boostrapt -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title> ismael-Desarollo web bootstrap</title>
+
+</head>
+<body>
+    <!-- Barra de navegacion bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img class="icono" src="https://cdn-icons-png.flaticon.com/512/1198/1198293.png"  width="50px" height="50px" alt="logo de la pagina">
+          </a>
+          <h2>Mi pagina</h2>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- editamos el navegador -->
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <ul class="navbar-nav d-flex justify-content-center aling-item" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"  id="link">Sobre mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" id="link">Proyectos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"  id="link">
+                  Contactos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Mi Numero</a></li>
+                  <li><a class="dropdown-item" href="#">Trabajos</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Desaroollo Web Fron-Tend</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled"  id="link">Comentarios</a>
+              </li>
+            </ul>
+         
+          </div>
+        </div>
+      </nav>
+     <!-- seccion hero() -->
+     <section class="hero aling-item-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center aling-item-center">
+        <img class="hero-imagen-desarollador" src="asset/yin-1751104.svg" alt="foto de secction" width="400px"  >
+        <h1>Hola, soy Ismael</h1>
+        <br>
+        <h2 id="h2">Desarollo Web Fron-Tend HTML,Css,javascript</h2>
+      </div>
+      <div>
+        <div class="hero-inferior">
+           <img class="hero-inferior-imagen img-fluid" src="asset/maxresdefault.jpg" alt="">
+        </div>
+       </div>
+     </section>
+     <!-- sobre mi -->
+     <section class="sobre-mi seccion-oscura">
+      
+        <div class="contenedor">
+          <h2 class="seccion-titulo texto--blanco">Programacion Fron-tend</h2>
+          <p class="seccion-texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur soluta, voluptatum consequuntur iste expedita sapiente, a provident, laboriosam vero eveniet ipsam amet repellendus quod nisi ex temporibus asperiores iure. Eum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam asperiores accusamus sit sunt illum magni beatae impedit nam, quis officiis assumenda harum at perferendis nisi cumque ad, dolorum magnam officia!</p>
+        </div>
+      
+     </section>
+     <!-- experiencia -->
+     <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- desarollo  web-->
+          <div class=" columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarollo Web</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum repudiandae ullam, dolore cupiditate voluptate perspiciatis illo culpa quos consequatur quibusdam qui id laudantium, quasi quae mollitia voluptatibus eveniet porro architecto.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-secondary">HTML</span>
+              <span class="badge text-bg-secondary">Scc</span>
+              <span class="badge text-bg-secondary">javascript</span>
+              </div>
+           </div>
+      
+           
+          <!-- articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-apple"></i>
+             <p class="experiencia-titulo">Marcas</p>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum corrupti molestiae error facere fugiat quidem corporis, exercitationem ea assumenda amet temporibus repellendus velit tempora ipsum. Recusandae nesciunt reprehenderit suscipit ea!</p>
+             <div class="badges-contenedor">
+              <span class="badge text-bg-secondary">HTML</span>
+              <span class="badge text-bg-secondary">Scc</span>
+              <span class="badge text-bg-secondary">javascript</span>
+              </div>
+
+             
+          </div>
+          <!-- estudiante -->
+          <div class=" columna col-12 col-md-4">
+            <i class="bi bi-android2"></i>
+             <p class="experiencia-titulo">Sistemas operativos</p>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum repudiandae ullam, dolore cupiditate voluptate perspiciatis illo culpa quos consequatur quibusdam qui id laudantium, quasi quae mollitia voluptatibus eveniet porro architecto.</p>
+             <div class="badges-contenedor">
+              <span class="badge text-bg-secondary"> HTML</span>
+              <span class="badge text-bg-secondary">Scc</span>
+              <span class="badge text-bg-secondary">javascript</span>
+              </div>
+          </div>
+        </div>
+      </div>
+     </section>
+     
+      
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
